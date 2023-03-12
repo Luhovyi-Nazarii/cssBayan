@@ -67,7 +67,8 @@ h2 {
 }
 
 .burger-btn {
-  display: none;
+  display: block;
+  opacity: 0;
   position: relative;
   width: 2.5rem;
   height: 2.5rem;
@@ -136,9 +137,9 @@ h2 {
   }
   
   .global_container:hover .burger-btn {
-    display: block;
     cursor: pointer;
     color: #24292F;
+    opacity: 1;
   }
 
   .container:hover .burger-btn svg {
@@ -161,9 +162,9 @@ h2 {
   }
 
   .global_container .burger-btn {
-    display: block;
     cursor: pointer;
     color: #24292F;
+    opacity: 1;
   }
 
   .burger-btn {
