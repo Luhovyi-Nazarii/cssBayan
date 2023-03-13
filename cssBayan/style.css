@@ -120,7 +120,6 @@ h2 {
 }
 
 .custom-checkbox {
-  position: absolute;
   z-index: -1;
   opacity: 0;
 }
